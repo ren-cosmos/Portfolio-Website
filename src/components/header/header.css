@@ -1,17 +1,17 @@
-header{
-    height: 100vh;
+header {
+    height: 129vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header__container{
+.header__container {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
 /* ************************** CTA **************************** */
-.cta{
+.cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -19,7 +19,7 @@ header{
 }
 
 /* ************************** Header Socials **************************** */
-.header__socials{
+.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ header{
 }
 
 /* Adding a line after header socials */
-.header__socials::after{
+.header__socials::after {
     content: "";
     width: 1px;
     height: 2rem;
@@ -38,20 +38,24 @@ header{
 }
 
 /* ************************** Image ME **************************** */
-.me{
+.me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 26rem;
-    height: 26rem;
+    width: 46rem;
     position: absolute;
-    left: calc(50% - 13.1rem);
+    left: calc(50% - 23rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.specific_me {
+    width: 46rem;
+    height: 52rem;
+    margin-top: -2rem !important;
 }
 
 /* ************************** Scroll Down **************************** */
-.scroll__down{
+.scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 21rem;
@@ -61,18 +65,38 @@ header{
 
 /* ************************** MEDIA QUERIES (MEDIUM DISPLAY DEVICES)**************************** */
 @media screen and (max-width: 1024px) {
-    header{
-        height: 100vh;
+    .me {
+        width: 36rem;
+        left: calc(50% - 18rem);
+    }
+
+    .specific_me {
+        width: 36rem;
+        height: 42rem;
+    }
+
+    header {
+        height: 109vh;
     }
 }
 
 /* ************************** MEDIA QUERIES (SMALL DISPLAY DEVICES)**************************** */
 @media screen and (max-width: 600px) {
-    header{
-        height: 100vh;
+    header {
+        height: 109vh;
     }
-    .header__socials, .scroll__down {
-        display: none;
-        
+
+    .me {
+        width: 27rem;
+        left: calc(50% - 13.5rem);
+    }
+
+    .specific_me {
+        width: 27rem;
+        height: 45rem;
+    }
+
+    .header__socials {
+        z-index: 3;
     }
 }

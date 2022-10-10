@@ -19,7 +19,7 @@ const header = () => {
 
         {/* Image */}
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={ME} alt="me" className="specific_me"/>
         </div>
 
         {/* Scroll Down */}
