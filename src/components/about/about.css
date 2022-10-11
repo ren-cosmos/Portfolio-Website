@@ -8,13 +8,17 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background-color: linear-gradient(45deg, transparent, var(--color-primary),transparent);
-    display: grid;
-    place-items: center;
+    /* background-color: linear-gradient(45deg, transparent, var(--color-primary),transparent); */
+    /* display: grid; */
+    /* place-items: center; */
 }
 
+/* ************************** Image ME **************************** */
 .about__me-image {
     background: linear-gradient(var(--color-primary), transparent);
+    width: 32rem;
+    position: static;
+    left: calc(50% - 18rem);
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     transform: rotate(10deg);
@@ -82,7 +86,7 @@
     }
 
     .about__me {
-        width: 50%;
+        width: 100%;
         margin: 2rem auto 4rem;
     }
 
@@ -94,15 +98,28 @@
         margin: 1rem 0 1.5rem;
     }
 
+    .about__me-image {
+        border-radius: 6rem 6rem 0 0;
+        width: 36rem;
+        left: calc(50% - 18rem);
+    }
+    
+
 }
 
 /* ************************** MEDIA QUERIES (SMALL DISPLAY DEVICES)**************************** */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 100%;
         margin: 0 auto 3rem;
     }
 
+    .about__me-image {
+        border-radius: 6rem 6rem 0 0;
+        width: 36rem;
+        left: calc(50% - 18rem);
+    }
+    
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
