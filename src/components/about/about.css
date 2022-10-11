@@ -14,14 +14,20 @@
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    height: 30rem;
 }
 
 .about__me-image:hover {
     transform: rotate(0);
+}
+
+.about__me-image-specific {
+    margin-top: -5rem;
 }
 
 .about__cards {
@@ -60,6 +66,9 @@
     color: var(--color-light);
 }
 
+.about__content {
+    margin-top: 4rem;
+}
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
