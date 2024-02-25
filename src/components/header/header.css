@@ -26,7 +26,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 17rem;
+    bottom: 12rem;
 }
 
 /* Adding a line after header socials */
@@ -41,6 +41,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 46rem;
+    height: 35rem;
     position: absolute;
     left: calc(50% - 23rem);
     margin-top: 4rem;
@@ -50,7 +51,7 @@ header {
 
 .specific_me {
     width: 46rem;
-    height: 52rem;
+    height: 38rem;
     margin-top: -2rem !important;
 }
 
@@ -58,7 +59,7 @@ header {
 .scroll__down {
     position: absolute;
     right: -2.3rem;
-    bottom: 21rem;
+    bottom: 16rem;
     transform: rotate(90deg);
     font-weight: 300;
 }

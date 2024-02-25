@@ -13,7 +13,7 @@
 }
 
 .portfolio__item:hover {
-    border-color: var(col)-rpimary-variant;
+    border-color: var(--color-primary-variant);
     background-color: transparent;
 
 }
@@ -24,7 +24,12 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 0.3rem 0 1rem;
+}
+
+.portfolio__item p {
+    font-weight: 300;
+    margin-bottom: 0.6rem;
 }
 
 .portfolio__item-cta {

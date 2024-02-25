@@ -16,24 +16,24 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Arya',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
+    name: 'Shivam Choudhary | Triton Electric Vehicles',
+    review: 'Working alongside Ren has been a pleasure. His dedication and creativity shine through in every project. A great team player, Ren consistently delivers high-quality work and fosters a positive environment. I highly recommend Ren for his professionalism and collaborative spirit.'
   },
-  {
-    avatar: AVTR2,
-    name: 'Simbha',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
-  },
-  {
-    avatar: AVTR3,
-    name: 'Kanti',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Pumpy',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
-  }
+  // {
+  //   avatar: AVTR2,
+  //   name: 'Simbha',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
+  // },
+  // {
+  //   avatar: AVTR3,
+  //   name: 'Kanti',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
+  // },
+  // {
+  //   avatar: AVTR4,
+  //   name: 'Pumpy',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facere omnis laborum illo dicta qui? Beatae facilis, animi, minima, repellendus rem eius numquam neque obcaecati error ipsum quidem tempore'
+  // }
 ]
 const testimonials = () => {
   return (

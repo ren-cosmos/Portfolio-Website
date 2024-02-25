@@ -23,7 +23,7 @@ const about = () => {
             <article className='about__card'>
               <MdWork className='about__icon'/>
               <h5>Experience</h5>
-              <small>1 year Work</small>
+              <small>~ 2 years</small>
             </article>
             <article className='about__card'>
               <BsTrophy className='about__icon'/>
@@ -36,8 +36,7 @@ const about = () => {
               <small>20+ Completed</small>
             </article>
           </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt aperiam mollitia vero, pariatur debitis optio non esse est iure, itaque at, labore facilis quasi eaque doloribus explicabo modi repellat ab.</p>
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <p>Academic achiever with a passion for DevOps, blending problem solving skill. Experienced Software Developer with a proven track record at Verafin and Triton. Creative innovator, having developed impactful projects such as Amazon Clone.</p>
         </div>
       </div>
     </section>

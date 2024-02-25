@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA.jsx'
-import ME from '../../assets/profile.png'
+import ME from '../../assets/profile.jpg'
 import HeaderSocials from './headerSocials.jsx'
 
 const header = () => {
@@ -12,7 +12,7 @@ const header = () => {
 
         {/* Introduction */}
         <h5>Hello I'm</h5>
-        <h1>Shivam Grover</h1>
+        <h1>Shivam Grover (Ren)</h1>
         <h5 className="text-light">Software Developer</h5>
         <CTA />
         <HeaderSocials />
